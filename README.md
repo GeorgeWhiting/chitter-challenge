@@ -1,7 +1,8 @@
-Chitter Challenge
-=================
+## Makers Academy Weekend Challenge 4 - Chitter Challenge
 
-Write a little Twitter clone that will allow the users to post messages to a public stream.
+Week 4 - Databases
+
+Challenge - Solo over one weekend - Write a little Twitter clone that will allow the users to post messages to a public stream.
 
 Features:
 -------
@@ -34,22 +35,29 @@ I want to log out of Chitter
 
 ```
 
-To run:
--------
+### To run:
+
 
 - Clone this repository
-- run bundle install
-- in psql run create database "chitter_development";
+- cd chitter-challenge
+- bundle
+- psql
+- create database "chitter_development";
+- \q
 - run rake database:migrate
-- rspec
 - rackup
-- or https://enigmatic-forest-49781.herokuapp.com/
+- or visit https://enigmatic-forest-49781.herokuapp.com/
 
-To add:
+### To add:
 
-- One day i'll learn some css i promise
+- Make it look nice
 - Password recovery
 - replying to a thread
 - tagging other registered users in a thread
 - email notifications
-- set up the many to one database relationship between peeps and users
+
+### Screenshots
+
+![](https://i.imgur.com/ETgh6tA.png)
+
+![](https://i.imgur.com/QiHFEWR.png)
